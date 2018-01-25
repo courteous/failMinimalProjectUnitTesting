@@ -5,31 +5,12 @@
       "noImplicitAny": true,
       "module": "es6",
       "target": "es5"
-      // "jsx": "react",
-      // "allowJs": true,
-      // "removeComments": false,
-      
-      // "moduleResolution": "node",
-      // "strict": true
         
 
     },
 
-    // "files": [
-    //   "./ts/external/definitions/BigInteger.d.ts",
-    //   "./ts/external/definitions/ByteBuffer.d.ts",
-    //   "./ts/external/definitions/Long.d.ts"
-    // ],
-    // "exclude": [
-    //     "node_modules",
-    //     "tests",
-    //     "dist"
-    // ]
     "include": [
       "ts/*.ts"
-      // "ts/**/*.ts"
-      // "./external/**/*.ts",
-      // "./tlv/**/*.ts"
       
     ]
 

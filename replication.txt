@@ -1,6 +1,6 @@
 // install the testing dependancies
 
 
-npm install  mocha chai ts-loader typescript-logging webpack typescript tslint --save-dev
+npm install  mocha chai ts-loader typescript-logging webpack typescript tslint webpack --save-dev
 
 sudo npm install tslint typescript -g

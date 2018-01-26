@@ -3,7 +3,7 @@ import { expect } from '../node_modules/chai/';
 import {mocha} from "../node_modules/mocha/";
 
 
-import { Hellow2 } from './Hello2';
+import { Hellow2 } from './../ts/Hello2';
 
 describe('Hello function', () => {
 

@@ -18,7 +18,8 @@
   "scripts": {
     "prestart": "./node_modules/typescript/bin/tsc",
     "start": "node ./ts/app.ts",
-    
+    "pretest": "./node_modules/.bin/tslint --config tslint.json --project tsconfig.json",
+
     "echo": "echo \"Error not test specified \" && exit 1",
     "build": "webpack ./ts/app.ts",
     "test": "./node_modules/mocha/bin/mocha -r ts-node/register  ./tests/example.ts"
